@@ -27,7 +27,7 @@ heroku apps: create [filename]
 
 ```
 
-3. To deploy this app on Heroku using git, run following commands:
+3. To deploy this app on Heroku using git, run following command:
 ```
 git push heroku master
 
