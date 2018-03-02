@@ -4,7 +4,7 @@ This repo will teach how to create a basic [tornado](http://www.tornadoweb.org/e
 
 ## Prerequisites
 ```
-Python  > = 2.7
+Python  >= 2.7
 Tornado >= 3.1.1
 Heroku login credentials(free account option available)
 Heroku CLI(Command Line Interface)
