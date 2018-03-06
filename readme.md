@@ -8,6 +8,7 @@ Python  >= 2.7
 Tornado >= 3.1.1
 Heroku login credentials(free account option available)
 Heroku CLI(Command Line Interface)
+Docker(Only for app containerization)
 ```
 
 ## Installation 
@@ -33,3 +34,17 @@ git push heroku master
 
 ```
 Check the final output on the Heroku.
+# Dockerize the tornado application 
+Build the Docker image using this command:
+```
+docker build -t hello-tornado . 
+```
+Run the Docker container using this command:
+```
+docker run -d -p 5000:5000 hello-tornado
+```
+You can check for the final output on localhost:5000. 
+
+
+
+
