@@ -33,7 +33,7 @@ heroku apps: create [filename]
 git push heroku master
 
 ```
-Check the final output on the Heroku.
+Check the final output on the Heroku dashboard.
 # Dockerize the tornado application 
 Build the Docker image using this command:
 ```
